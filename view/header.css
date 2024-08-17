@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#logo {
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 150px;
+  width: 200px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+header {
+  background-color: #222;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+
+  color: #fff;
+  padding: 20px;
+}
+
+
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+/*  background-color: #ccc;*/
+  color: #00ffff;
+}
+
+.cta {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta:hover {
+  background-color: #000000;
+  color: #00ffff;
+}
+
+.cta:active {
+  background-color: #000066;
+  color: #ff0000;
+}
+
+
+/* profile picture */
+.profile-pic {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 60px; 
+  height: 60px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.profile-pic img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-pic img:hover{
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+/* Styles for the dropdown menu */
+.dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 60px;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  border-radius: 6px;
+}
+
+.dropdown a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.dropdown a:hover {
+  color: #00ffff;
+  background-color: #333;
+}
+
+
+.search-container #search {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-container #search {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.search-container #search #searchBox {
+  text-transform: scale(1.2);
+  background-color: #333;
+  color: #00ffff;
+}
+
+ .search-container #search {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-container #search:hover {
+  background-color: #45a049;
+}

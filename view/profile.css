@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 100px auto;
+  padding: 20px;
+
+  font-family: Arial, sans-serif;
+
+}
+
+.profile-container {
+  flex-direction: row;
+  align-items: center;
+
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #e6ffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+}
+
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.profile-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile-details p {
+  margin: 0 0 5px 0;
+}
+
+.camera-button {
+  position: absolute;
+  background: #00B4FF;
+  /*bottom: 250px;
+  right: 750px;*/
+  bottom: 250px;
+  right: 760px;
+  width: 32px;
+  height: 32px;
+  line-height: 33px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.camera-button input[type = "file"]{
+  position: absolute;
+  transform: scale(3);
+  opacity: 0;
+
+}
+
+input[type=file]::-webkit-file-upload-button{
+  cursor: pointer;
+}
+
+
+
+
+
+.camera-button  i  {
+/*  right: 100px;*/
+  font-size: 16px;
+  color: #fff;
+/*  background-color: #66ffff;*/
+}
